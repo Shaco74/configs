@@ -3,6 +3,12 @@ local overrides = require("custom.configs.overrides")
 ---@type NvPluginSpec[]
 local plugins = {
 
+  -- My plugins
+  {
+    "github/copilot.vim",
+    lazy = false
+  },
+
   -- Override plugin definition options
 
   {
